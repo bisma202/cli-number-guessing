@@ -12,13 +12,13 @@ const randomNumber = Math.floor(Math.random()* 6 + 1);
 
 const answers = await inquirer.prompt([
     {
-        name: "userGuessedNumber",
+        name: "userGuessNumber",
         type: "number",
         message: "please guess a number between 1-10: ",
     },
 ]);
 
-if(answers.userGuessedNumber === randomNumber ){
+if(answers.userGuessNumber === randomNumber ){
     console.log("congtratulation! you guessed right number.")
 }else {console.log("you guessed wrong number")}
 
