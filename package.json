@@ -1,7 +1,7 @@
 {
   "name": "bismeo55-number-guessing",
   "version": "1.0.4",
-  "description": "this is a cli based numbers guessing game for testing",
+  "description": "this is a cli based numbers guessing game ",
   "main": "index.js",
   "type": "module",
   "publishconfig":{
